@@ -11,3 +11,7 @@ This Hangman game is a simple command-line version of the classic word-guessing 
 - words.txt: This file contains a list of words, one per line, from which the game randomly selects the word to be guessed.
 - stages.txt: This file contains the stages of the hangman drawing, separated by ###.
 
+**Libraries Used**
+- random: For selecting a random word from the list.
+- PIL: Python Imaging Library (Pillow) for opening and manipulating images.
+- IPython.display: For displaying images in environments like Jupyter Notebook.
